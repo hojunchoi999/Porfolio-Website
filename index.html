@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width,intital-scale = 1.0">
+        <title> Hojun Choi Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAKLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <script src="https://kit.fontawesome.com/99159d0965.js" crossorigin="anonymous"></script>
+    </head>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+    +Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#mySkills" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I'm <strong>Alex Choi</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> software developer</p>
+            <img src="img/profile.jpg" alt="a picture of me" class="intro__img">
+        </section>
+
+        <!-- My services-->
+        <section class="my--services" id="mySkills">
+            <h2 class="section__title section__title--services">My Skills</h2>
+            <div class="mySkillsContainer">
+                <div class="mySkills">
+                    <h3>FRONT-END DEVELOPMENT</h3>
+                        <p>I am a front-end developer with expertise in HTML, CSS, and JavaScript. 
+                            Proficient with Vue.js, design concepts, and Git, 
+                            I create visually appealing and responsive websites with a focus on user-centric design and accessibility.</p>
+                </div>
+                <div class="mySkills">
+                    <h3>BACK-END DEVELOPMENT</h3>
+                        <p>I have experience in backend development using server-side programming languages such as C++ and Java.
+                            I am eager to develop my skills in database design, API development, and cloud computing. 
+                            I am committed to delivering secure, reliable, and scalable web applications that meet industry standards and best practices.</p>
+                </div>
+                <div class="mySkills">
+                    <h3>PROJECT MANAGEMENT</h3>
+                        <p>With a background in consulting engineering, I excel at communicating technical concepts to non-technical stakeholders, making me an effective team player. 
+                            My project management skills, honed through experience in managing tasks and delegating responsibilities, ensure that projects are delivered on time and within budget.</p>
+                </div>
+            </div>
+            <div>
+            <a href="#work" class="btn">My Projects </a>
+            </div>
+        </section>
+
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+                <p class="section__subtitle section__subtitle--about">Developer studying at the University of Waterloo</p>
+                <div class="about-me__body">
+                    <p>Hi, I'm Alex, a passionate software developer with a strong desire to hone my front-end and back-end development skills to create real-world solutions. 
+                        I find joy in problem-solving and utilizing technology to develop innovative solutions. 
+                        My major in Electrical Engineering has equipped me with a diverse skill set and the ability to learn quickly. 
+                        My combination of my academic background and programming skills allow me to excel in the field of software development.</p>
+                    <p>When I'm not coding, I prioritize my physical health by going to the gym regularly. 
+                        I also love to connect with nature by going hiking and fishing, which gives me a chance to clear my mind and recharge. 
+                        I believe that maintaining a healthy balance between work and personal interests is key to a fulfilling life, and I strive to maintain that balance every day. 
+                        I am excited to collaborate with individuals and organizations who share my passion for innovation and making a positive impact in the world.</p>
+                </div>
+            <!--<img src="" alt="picture of me again">  -->
+        </section>
+
+        <!--My Projects-->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My Projects</h2>
+                <p class="section__subtitle">A selection of my Projects</p>
+                <div class = "portfolio">
+                    <a href="a" class="portfolio__item">
+                        <img src="img/password2.jpeg" alt="" class="portfolio__img">
+                    </a>
+
+                    <a href="a" class="portfolio__item">
+                        <img src="img/p3.jpg" alt="" class="portfolio__img">
+                    </a>
+                </div>
+            </section>
+
+            <!--footer-->
+            <footer class="footer"> 
+            <a href="mailto:h66choi@uwaterloo.ca" class="footer-link">h66choi@uwaterloo.ca</a>
+            <ul class="social-list">
+                <li class="social-list__item"> 
+                    <a class="social-list__link" href="https://www.linkedin.com/in/hojunchoi"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li class="social-list__item"> 
+                    <a class="social-list__link" href="https://github.com/hojunchoi999"><i class="fa-brands fa-github"></i></a>
+                </li>
+
+        
+            </ul>
+            </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
